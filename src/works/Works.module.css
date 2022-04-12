@@ -13,8 +13,10 @@
 }
 
 .works {
+    width: 100%;
     background-color: lightblue;
     border: 1px solid;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }

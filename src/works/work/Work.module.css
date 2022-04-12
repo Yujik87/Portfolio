@@ -1,8 +1,17 @@
-.workBlock {
-
+.work {
+    width: 380px;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .image {
+    background-color: lightgray;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
