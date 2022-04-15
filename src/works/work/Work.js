@@ -7,8 +7,12 @@ function Work(props) {
             <div className={style.image}>
                 <button className={style.buttonView}>View</button>
             </div>
-            <h4>{props.title}</h4>
-            <span>{props.description}</span>
+            <div className={style.info}>
+                <h4>{props.title}</h4>
+                <div className={style.text}>
+                    <span>{props.description}</span>
+                </div>
+            </div>
         </div>
     );
 }

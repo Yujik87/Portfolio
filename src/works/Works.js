@@ -9,8 +9,8 @@ function Works() {
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
                 <h2 className={style.title}>My works</h2>
                 <div className={style.works}>
-                    <Work title={'Work1'} image={''} description={'lorem50'}/>
-                    <Work title={'Work2'} image={''} description={'lorem50'}/>
+                    <Work title={'ToDoList'} image={''} description={'This application allows you to create lists with tasks, add new lists and task, change them and delete them. Also it has error control to protect incorrect data enter.'}/>
+                    <Work title={'Counter'} image={''} description={'This application allows you to...'}/>
                 </div>
             </div>
         </div>

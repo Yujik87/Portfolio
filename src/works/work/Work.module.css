@@ -3,16 +3,25 @@
     background-color: greenyellow;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: flex-start;
 }
 
 .image {
     background-color: lightgray;
+    width: 380px;
     height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+
+.info{
+    padding: 10px;
+}
+
+.text {
+    background-color: lightgreen;
 }
 
 .buttonView {
