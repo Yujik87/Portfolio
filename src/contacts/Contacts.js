@@ -8,7 +8,7 @@ function Contacts() {
         <div className={style.contactsBlock}>
             <div className={styleContainer.container}>
                 <div className={style.contactsContainer}>
-                    <h2>Contacts</h2>
+                    <h2 className={style.contactTitle}>Contacts</h2>
                     <form className={style.inputBlock}>
                         <input type="text"/>
                         <input type="text"/>

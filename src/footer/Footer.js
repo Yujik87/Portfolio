@@ -10,10 +10,10 @@ function Footer() {
                 <div className={style.footerContainer}>
                     <h3>Yury Khakevich</h3>
                     <div className={style.social}>
-                        <div>LinkedIn</div>
-                        <div>GitHub</div>
-                        <div>Instagram</div>
-                        <div>Telegram</div>
+                        <div className={style.socialIcon}>LinkedIn</div>
+                        <div className={style.socialIcon}>GitHub</div>
+                        <div className={style.socialIcon}>Instagram</div>
+                        <div className={style.socialIcon}>Telegram</div>
 
                     </div>
                     <h4>2022 All rights reserved.</h4></div>
