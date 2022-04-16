@@ -1,24 +1,23 @@
-.distant {
+.footerBlock {
     background-color: palevioletred;
-    height: 30vh;
+    height: 40vh;
     margin: 0 auto;
 }
 
-.distantContainer{
-    display: flex;
-    background-color: #ffd47e;
+.footerContainer {
+    background-color: #73ce6e;
     width: 100%;
-    height: 80%;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.head {
+.social {
     background-color: greenyellow;
-}
-
-.button {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 
 }
